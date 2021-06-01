@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -15,6 +16,18 @@
 	<description>Spring boot verison of Twitter!</description>
 	<properties>
 		<java.version>11</java.version>
+=======
+		<version>2.4.3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.tts.TechTalentTwitter</groupId>
+	<artifactId>TechTalentTwitter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TechTalentTwitter</name>
+	<description>Twitter project using Spring Boot</description>
+	<properties>
+		<java.version>1.8</java.version>
+>>>>>>> c24f3a3 (First)
 	</properties>
 	<dependencies>
 		<dependency>
@@ -68,6 +81,24 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+			<dependency>
+				<groupId>org.thymeleaf.extras</groupId>
+				<artifactId>thymeleaf-extras-springsecurity4</artifactId>
+				<version>3.0.2.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>org.ocpsoft.prettytime</groupId>
+				<artifactId>prettytime</artifactId>
+				<version>4.0.1.Final</version>
+			</dependency>
+		<dependency>
+			<groupId>org.ocpsoft.prettytime</groupId>
+			<artifactId>prettytime</artifactId>
+			<version>5.0.0.Final</version>
+		</dependency>
+>>>>>>> c24f3a3 (First)
 	</dependencies>
 
 	<build>
